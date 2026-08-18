@@ -6,7 +6,7 @@ public class Application {
         Lottery lottery = new Lottery();
         Ball firstBall = lottery.getRandomBall();
         Ball secondBall = lottery.getRandomBall();
-        Ball  thirdBall = lottery.getRandomBall();
+        Ball thirdBall = lottery.getRandomBall();
 
         System.out.println("First ball: " + firstBall);
         System.out.println("Second ball: " + secondBall);
